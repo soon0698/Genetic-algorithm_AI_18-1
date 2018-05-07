@@ -15,7 +15,7 @@ class Chromosome:
     result in a new chromosome instance being created.
     """
 
-    _target_gene = "Hello, world! this is GA algorithm"
+    _target_gene = "This is GA algorithm"
     
     def __init__(self, gene):
         self.gene = gene
